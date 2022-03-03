@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+  color: rgb(69,69,69)
+}
+
+
+#top-container{
+    margin: 5%;
+    padding: 3%;
+    border: 2px solid rgb(221,221,221);
+}
+
+a {
+  color:#007acc;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#name-header > a {
+  color: rgb(69,69,69);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+#name-header > a:hover {
+  color:#007acc;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+#navigation-bar.flex-container {
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+#navigation-bar > div {
+  padding: 18px;
+}
+
+#navigation-bar > div > a {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(69,69,69);
+}
+
+.divider {
+  color: rgb(221,221,221);
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+hr {
+  color: rgb(221,221,221);
+  size: 20px;
+}
+
+#navigation-bar > div > a:hover{
+  /* text-decoration: underline; */
+  color:#007acc;
+}
+
+#navigation-bar > div > a.current {
+  font-weight: bold;
+}
+
+.content{
+  width: 60%;
+  padding: 1%;
+  margin: 0px auto;
+}
+
+#ollie {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%
+
+}
+
+footer {
+  text-align: center;
+  color: rgb(180,180,180)
+}
