@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+  font-family:'Courier New', monospace;
   color: rgb(69,69,69)
 }
 
@@ -12,11 +12,11 @@ body {
 }
 
 a {
-  color:#007acc;
+  color:#00FF7F;
 }
 
 h1 {
-  text-align: center;
+  text-align: right;
 }
 
 ul {
